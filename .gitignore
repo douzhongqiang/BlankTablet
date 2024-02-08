@@ -1,54 +1,35 @@
-# C++ objects and libs
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
+debug
+release
+temp
+.vs/
+.qtc_clangd/
+.vscode/
+.cache/
+android-app-process
+android-build
+arm64-v8a
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-*.qm
-*.prl
-
-# Qt unit tests
-target_wrapper.*
-
-# QtCreator
 *.autosave
+*.sln
+*.suo
+*.sdf
+*.pdb
+*.pro.user
+*.vcxproj
+*.vcxproj.filters
+*.zip
+.qmake.stash
+Makefile
+*.user
+*.Debug
+*.Release
+*.autosave
+qml_qmlcache.qrc
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
-
-# QtCreator CMake
-CMakeLists.txt.user*
-
-# QtCreator 4.8< compilation database
-compile_commands.json
-
-# QtCreator local machine specific files for imported projects
-*creator.user*
-
-*_qmlcache.qrc
+bin/*.dll
+bin/*.pdb
+bin/*.ilk
+bin/*.exp
+bin/*.lib
+bin/*.exe
+CCRRTClient/*.pdb
